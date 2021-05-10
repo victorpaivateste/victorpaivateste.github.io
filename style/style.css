@@ -1,0 +1,91 @@
+body {
+  /* background: #2f2f2b; */
+  background: rgb(47,47,43);
+  background: linear-gradient(180deg, rgba(47,47,43,0.9054972330729166) 100%, rgba(233,233,231,0.5105392498796393) 100%);
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.foto-principal {
+  width: 200px;
+  border: 2px solid #FFFFFF; /* shorthand */
+  border-radius: 50%;
+  margin: 30px 30px 0 30px;
+  box-shadow: 0px 0px 10px #959595;
+  text-align: left;
+}
+
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 0;
+  font-style: italic;
+  color: #FF612F;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+h3 {
+  color: #FF612F;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+p {
+  line-height: 25px;
+  margin-top: 0;
+}
+
+.social-links {
+  text-decoration: none;
+}
+
+.social-icons {
+  width: 20px;
+}
+
+.github {
+  margin: 0 15px 0 15px;
+}
+
+.jobs-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #FF612F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 11px;
+  width: 100%;
+}
